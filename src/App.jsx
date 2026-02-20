@@ -1,8 +1,11 @@
 import React from 'react'
+import Navigation from './components/shared/Navigation';
 
 const App = () => {
   return (
-    <div className='text-red-600'>App</div>
+    <div>
+        <Navigation/>
+    </div>
   )
 }
 
