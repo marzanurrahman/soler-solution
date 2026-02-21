@@ -5,7 +5,7 @@ import { X } from 'lucide-react'
 
 const MobileSideBar = ({toggle, setToggle}) => {
   return (
-    <aside className={`fixed w-10/12 p-8 top-0 ${toggle ? "left-0" : "left-[-100%]"} h-screen duration-300 ease-in-out bg-stone-900`}>
+    <aside className={`fixed w-10/12 p-8 top-0 ${toggle ? "left-0" : "-left-full"} h-screen duration-300 ease-in-out bg-stone-900`}>
       <button onClick={()=> setToggle(false)} className='absolute top-10 right-5'>
         <X className='text-white'/>
       </button>
